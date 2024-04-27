@@ -32,21 +32,24 @@ To get a local copy up and running, follow these simple steps.
 - Node.js
 - npm
 
+```bash
 npm install npm@latest -g
+```
 
 ### Installation
 1. Clone the repo
-git clone https://github.com/parag2804/shoptrack
-
+```bash
+git clone https://github.com/your_username_/ShopTrack.git
+```
 2. Install NPM packages
-
+```bash
 npm install
-
+```
 3. Enter your environment variables in `.env.local`
 
 ## Usage
 For local development, run:
-
+```bash
 npm run dev
-
+```
 Navigate to `http://localhost:3000` to view the app.
