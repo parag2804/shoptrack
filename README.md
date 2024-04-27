@@ -6,9 +6,6 @@
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contribution](#contribution)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 ShopTrack is an innovative e-commerce price tracking application designed to help consumers make informed purchasing decisions by providing real-time notifications on price drops and stock availability.
