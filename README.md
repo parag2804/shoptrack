@@ -25,28 +25,52 @@ ShopTrack is an innovative e-commerce price tracking application designed to hel
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
-- Node.js
-- npm
+**##Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm install npm@latest -g
+git clone https://github.com/parag2804/shoptrack.git
+cd shoptrack
 ```
 
-### Installation
-1. Clone the repo
-```bash
-git clone https://github.com/your_username_/ShopTrack.git
-```
-2. Install NPM packages
+**Installation**
+
+Install the project dependencies using npm:
+
 ```bash
 npm install
 ```
-3. Enter your environment variables in `.env.local`
 
-## Usage
-For local development, run:
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+#SCRAPER
+BRIGHT_DATA_USERNAME=
+BRIGHT_DATA_PASSWORD=
+
+#DB
+MONGODB_URI=
+
+#OUTLOOK
+EMAIL_USER=
+EMAIL_PASS=
+```
+
+Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on these specific websites from [BrightData](https://brightdata.com/), [MongoDB](https://www.mongodb.com/), and [Node Mailer](https://nodemailer.com/)
+
+**Running the Project**
+
 ```bash
 npm run dev
 ```
-Navigate to `http://localhost:3000` to view the app.
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
